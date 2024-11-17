@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
+        "primary": "#fbe7c6",
+        "secondary":"#c55a3a",
+        "dark": "#1d2228",
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      borderWidth: {
+        "5": "20px",
+      },
+      fontFamily: {
+        'alfa': ['"Alfa Slab One"', 'cursive'],
       },
     },
   },

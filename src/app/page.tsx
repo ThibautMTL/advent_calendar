@@ -24,7 +24,7 @@ export default function Home() {
     setFilmSelected(null);
   };
 
-  const isValidDate = (day: number) => {
+  const isValidDate = () => {
     return true;
   };
 

@@ -48,12 +48,12 @@ export default function Home() {
         </span>
         </div>
         <div className="relative flex justify-center items-center">
-        <img src="/images/popcorn.svg" alt="popcorn" className="absolute -right-8 [max-width:none] [width:240px] h-auto translate-y-6" />
+        <img src="/images/popcorn.svg" alt="popcorn" className="absolute -right-8 [max-width:none] [width:58vw] h-auto translate-y-6" />
         </div>
       </div>
       </div>
       
-      <div className="grid grid-cols-3 md:grid-cols-6 gap-10 max-w-4xl mx-auto relative z-10 mt-24 mb-36">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-8 max-w-4xl mx-auto relative z-10 mt-24 mb-36">
         {moviesData.movies.map((caseCalendar: CalendarCase) => (
           <CalendarDoor
           key={caseCalendar.day}

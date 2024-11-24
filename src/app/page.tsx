@@ -47,7 +47,7 @@ export default function Home() {
       {!filmSelected && (
       <div className={`calendar-container min-h-screen bg-dark px-8 border-5 border-primary relative z-0 ${openDoors.length > 0 ? 'disappear-calendar' : ''}`}>
       <div className={`-mx-8 relative z-10 ${openDoors.length > 0 ? 'opacity-0' : ''}`}>
-      <h1 className="text-4xl sm:text-6xl text-center text-primary mb-6 font-bold font-alfa uppercase tracking-wide relative z-10">
+      <h1 className="text-4xl sm:text-6xl text-center text-primary mb-6 font-bold font-alfa uppercase tracking-widest relative z-10">
         <span className="text-xl sm:text-3xl sm:leading-5">2024</span>
         <br/>Event Calendar
       </h1>
